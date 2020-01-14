@@ -1,0 +1,44 @@
+
+animal1 = input("Animal favorito: ")
+adj1_animal1 = input("Um adjetivo para descrevê-lo: ")
+adj2_animal1 = input("Outro adjetivo: ")
+adj3_animal1 = input("Outro: ")
+
+animal2 = input("Segundo animal favorito: ")
+adj1_animal2 = input("Um adjetivo para descrevê-lo: ")
+adj2_animal2 = input("Outro adjetivo: ")
+adj3_animal2 = input("Outro: ")
+
+animal3 = input("Terceiro animal favorito: ")
+adj1_animal3 = input("Um adjetivo para descrevê-lo: ")
+adj2_animal3 = input("Outro adjetivo: ")
+adj3_animal3 = input("Outro: ")
+
+print("3 descrições para uma oarede branca:")
+descricao1 = input("Descrição 1: ")
+descricao2 = input("Descrição 2: ")
+descricao3 = input("Descrição 3: ")
+
+print("3 adjetivos para o mar")
+adj1_mar = input("Adjetivo 1: ")
+adj2_mar = input("Adjetivo 2: ")
+adj3_mar = input("Adjetivo 3: ")
+
+print("3 adjetivos para um café:")
+adj1_cafe = input("Adjetivo 1: ")
+adj2_cafe = input("Adjetivo 2: ")
+adj3_cafe = input("Adjetivo 3: ")
+
+print(" ")
+print("RESULTADO")
+print(" ")
+
+print("Eu sou " + adj1_animal1 + ", " + adj2_animal1 + " e " + adj3_animal1)
+print(" ")
+print("As pessoas vêem-me " + adj1_animal2 + ", " + adj2_animal2 + " e " + adj3_animal2)
+print(" ")
+print("Eu quero/tento ser " + adj1_animal3 + ", " + adj2_animal3 + " e" + adj3_animal3)
+print(" ")
+print("A minha vida sentimental é " + descricao1 + ", " + descricao2 + ", " + descricao3 + ", " + adj1_mar + ", " + adj2_mar + " e " + adj3_mar)
+print(" ")
+print("A minha vida sexual é " + adj1_cafe + ", " + adj2_cafe + " e " + adj3_cafe)
